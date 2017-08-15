@@ -13,16 +13,19 @@ class Navigation extends Component {
                 P/N
             </a>
             <div className="container">
-                <div className="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                <div className="collapse navbar-collapse justify-content-center" id="navbarToggler">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">item 1</a>
+                            <a className="nav-link" href="#">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">item 2</a>
+                            <a className="nav-link" href="#">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">item 3</a>
+                            <a className="nav-link" href="#">Clients</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
