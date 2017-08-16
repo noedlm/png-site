@@ -13,7 +13,7 @@ class Navigation extends Component {
                 P/N
             </a>
             <div className="container">
-                <div className="collapse navbar-collapse justify-content-center" id="navbarToggler">
+                <div className="collapse navbar-collapse justify-content-end" id="navbarToggler">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link" href="#">About</a>
