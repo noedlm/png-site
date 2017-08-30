@@ -5,7 +5,7 @@ class LandingPage extends Component {
     return (
       <div className="d-flex jumbotron jumbotron-fluid" style={{backgroundColor: "white"}}>
         <div className="container container-fluid">
-            <h1 className="display-4">______ ______ Studios</h1>
+            <h1 className="display-4 spread-letters">About Us</h1>
             <br/>
             <p className="lead">
               Here at this place we like to be passionate about our work and we take pride
