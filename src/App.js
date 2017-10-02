@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import Navigation from './Navigation';
-import LandingPage from './LandingPage';
+import AboutUs from './AboutUs';
+import Team from './Team';
+import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
@@ -9,14 +11,17 @@ class App extends Component {
     return (
       <div>
         <Navigation />
-        <div className="brand-container">
-          <span className="brand">
-            _______ _______ <span className="spread-letters">studios</span>
+        <div className="brand-container brand">
+          <span className="spread-letters">
+            blink switch studios
           </span>
         </div>
         <div className="parallax image-wakis"></div>
-        <LandingPage />
+        <AboutUs />
+        <div className="parallax parallax--half-height image-wakis"></div>
+        <Team />
         <div className="parallax image-wakis"></div>
+        <Footer />
       </div>
     );
   }

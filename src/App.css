@@ -9,8 +9,35 @@ body,html {
   background-size: cover;
 }
 
+.parallax--half-height {
+  height: 70vh;
+}
+
 .image-wakis {
   background-image: url("../images/wakis.jpeg");
+}
+
+.profile-thumbnail {
+  height: 200px;
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 2px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto auto 10px auto;
+}
+
+.team-intro {
+  padding: 0 30px;
+}
+
+.image-noe {
+  background-image: url("../images/noe.jpg");
+}
+
+.image-paul {
+  background-image: url("../images/paul.jpg");
 }
 
 .brand-container {
@@ -28,15 +55,27 @@ body,html {
   font-size: 30px;
   color: #c7c7c7;
   text-transform: uppercase;
+  word-wrap: break-word;
 }
 
 .text-white {
   color: white;
 }
 
+.large-icon {
+  font-size: 14vw;
+}
+
 .spread-letters {
   margin-left: 10px;
   letter-spacing: 10px;
+}
+
+.section {
+  background-color: #3d3139;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
 }
 
 .App-logo {

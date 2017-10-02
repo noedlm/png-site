@@ -10,22 +10,22 @@ class Navigation extends Component {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <a className="navbar-brand" href="#">
-                P/N
+                BSS
             </a>
             <div className="container">
                 <div className="collapse navbar-collapse justify-content-end" id="navbarToggler">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#about-us">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="#projects">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Clients</a>
+                            <a className="nav-link" href="#clients">Clients</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Us</a>
+                            <a className="nav-link" href="#contact-us">Contact Us</a>
                         </li>
                     </ul>
                 </div>
