@@ -16,7 +16,7 @@ class App extends Component {
         </div>
         <div className="parallax image-wakis"></div>
         <LandingPage />
-        <div className="parallax image-wakis"></div>
+        <div className="parallax image-tree"></div>
       </div>
     );
   }

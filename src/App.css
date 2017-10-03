@@ -13,6 +13,10 @@ body,html {
   background-image: url("../images/wakis.jpeg");
 }
 
+.image-tree {
+  background-image: url("../images/tree.jpg");
+}
+
 .brand-container {
   width: 100%;
   top: 50%;
