@@ -14,11 +14,11 @@ body,html {
 }
 
 .image-wakis {
-  background-image: url("../images/wakis.jpeg");
+  background-image: url("../../images/wakis.jpeg");
 }
 
 .image-tree {
-  background-image: url("../images/tree.jpg");
+  background-image: url("../../images/tree.jpg");
 }
 
 .profile-thumbnail {
@@ -37,11 +37,11 @@ body,html {
 }
 
 .image-noe {
-  background-image: url("../images/noe.jpg");
+  background-image: url("../../images/noe.jpg");
 }
 
 .image-paul {
-  background-image: url("../images/paul.jpg");
+  background-image: url("../../images/paul.jpg");
 }
 
 .brand-container {
