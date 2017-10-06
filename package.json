@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "react-scrollchor": "4.0.0"
   },
   "devDependencies": {},
   "scripts": {
