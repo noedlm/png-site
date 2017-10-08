@@ -13,6 +13,14 @@ body,html {
   height: 70vh;
 }
 
+.parallax--auto-height {
+  height: auto;
+}
+
+.parallax--break {
+  height: 30vh;
+}
+
 .image-wakis {
   background-image: url("../images/wakis.jpeg");
 }
@@ -22,14 +30,20 @@ body,html {
 }
 
 .profile-thumbnail {
-  height: 200px;
-  width: 200px;
-  border: 3px solid white;
-  border-radius: 2px;
+  height: 235px;
+  width: 235px;
+  border-radius: 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: auto auto 10px auto;
+}
+
+@media (max-width: 780px) {
+  .profile-thumbnail {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 .team-intro {
@@ -66,6 +80,10 @@ body,html {
   color: white;
 }
 
+.text-red {
+  color: #9E0420;
+}
+
 .large-icon {
   font-size: 14vw;
 }
@@ -76,10 +94,21 @@ body,html {
 }
 
 .section {
-  background-color: #3d3139;
-  color: white;
+  color: #404040; /*#161616 as an alternative or more pronounced color*/
+  background-color: white;
   margin-bottom: 0;
   padding-bottom: 2rem;
+}
+
+.section__header {
+  margin-left: 10px;
+  letter-spacing: 10px;
+  color: #9E0420;
+}
+
+.section__footer {
+  background-color: #404040;
+  color: white;
 }
 
 .App-logo {
@@ -92,4 +121,7 @@ body,html {
   to { transform: rotate(360deg); }
 }
 
-
+/* paddings and margins */
+.no-margin {
+  margin: 0;
+}
