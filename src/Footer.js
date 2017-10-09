@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div className="d-flex jumbotron jumbotron-fluid section" id="contact-us">
+      <div className="d-flex jumbotron jumbotron-fluid section section__footer" id="contact-us">
         <div className="container container-fluid">
             <div className="row text-center">
                 <div className="col">

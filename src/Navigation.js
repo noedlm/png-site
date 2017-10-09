@@ -19,10 +19,10 @@ class Navigation extends Component {
                             <a className="nav-link" href="#about-us">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#projects">Team</a>
+                            <a className="nav-link" href="#team">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#clients">Clients</a>
+                            <a className="nav-link" href="#services">Services</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact-us">Contact Us</a>

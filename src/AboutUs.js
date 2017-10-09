@@ -5,10 +5,11 @@ class AboutUs extends Component {
     return (
       <div className="d-flex jumbotron jumbotron-fluid section" id="about-us">
         <div className="container container-fluid">
-            <h1 className="display-4 spread-letters">About Us</h1>
+            <h1 className="display-4 section__header">About Us</h1>
             <br/>
             <p className="lead">
-              At Blink Switch Studios, we are passionate about our work and we take pride
+              We are a studio based out of Austin, TX. focused on web design and implementations to meet our clients' needs.
+              Established in 2017 so we're still very new. At Blink Switch Studios, we are passionate about our work and we take pride
               in what we deliver. Our focus is on delivering simple and intuitive solutions so you may carryon with
               with what matters to you.
             </p>

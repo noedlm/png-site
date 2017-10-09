@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Navigation from './Navigation';
 import AboutUs from './AboutUs';
 import Team from './Team';
+import Services from './Services';
+import Contact from './Contact';
 import Footer from './Footer';
 import './App.css';
 
@@ -18,9 +20,9 @@ class App extends Component {
         </div>
         <div className="parallax image-wakis"></div>
         <AboutUs />
-        <div className="parallax parallax--half-height image-tree"></div>
         <Team />
-        <div className="parallax image-wakis"></div>
+        <Services />
+        <Contact />
         <Footer />
       </div>
     );
